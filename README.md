@@ -1,6 +1,6 @@
 # ESP8266 E-ink Embedded Part
 
-The main file holds these functions
+The main file calls these functions
 
 ```c
     wifi_init(); // init the wifi module
