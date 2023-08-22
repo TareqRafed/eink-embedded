@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "ESP8266",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/build/include/*",
+                "${IDF_PATH}/components/**",
+                "${IDF_PATH}/components/freertos/port/esp8266/include",
+                "${workspaceFolder}/components/eink/include",
+                "${workspaceFolder}/components/wifi/include",
+                "${workspaceFolder}/components/dataSerialization/include",
+                "/home/tariq/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "__ESP_FILE__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
