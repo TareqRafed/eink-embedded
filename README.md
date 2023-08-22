@@ -6,7 +6,7 @@ The main file calls these functions
     wifi_init(); // init the wifi module
     GPIO_Init(); // init gpio module
     Init_SPI(); // init spi 
-    EPD_Init(); // init eink display
+    EPD_Init(); // init eink display (should be called after gpio and spi init)
     mqtt_connect_to_server(); // subscribes to mqtt and publish fetch command (fetch command is one of the custom protocol commands between client and the embedded system) 
 ```
 
